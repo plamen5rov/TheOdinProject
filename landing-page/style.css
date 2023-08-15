@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
     height: vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0;
 
 
 }

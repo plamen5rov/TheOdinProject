@@ -2,6 +2,9 @@ body {
     margin: 0;
     background-color: rgb(244, 247, 247);
     font-family: 'Roboto', sans-serif;
+    height: vh;
+    display: flex;
+
 
 }
 
@@ -13,3 +16,42 @@ header, footer {
     color: #F9FAF8;
 }
 
+li {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h2 {
+    font-size: 36 px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.title-area h1 {
+    font-size: 48 px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.title-area button {
+    font-size: 18 px;
+    color: #F9FAF8;
+    background-color: #3883F6;
+}
+
+#top-menu h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#testimonial {
+    background-color: #E5E7EB;
+}
+
+#quote {
+    font-size: 36 px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}

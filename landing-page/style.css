@@ -1,4 +1,15 @@
 body {
     margin: 0;
-    background-color: rgb(218, 247, 247);
+    background-color: rgb(244, 247, 247);
+    font-family: 'Roboto', sans-serif;
+
 }
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+

@@ -1,7 +1,7 @@
 body {
   height: 100vh;
   margin: 0;
-  background-color: rgb(244, 247, 247);
+  background-color: white;
   font-family: "Roboto", sans-serif;
   padding: 0;
 }
@@ -37,6 +37,7 @@ h2 {
   font-size: 36 px;
   font-weight: extra-bold;
   color: #1f2937;
+  text-align: center;
 }
 #header-section {
   display: flex;
@@ -75,6 +76,32 @@ h2 {
   align-self: center;
 }
 
+#info-section {
+  display: flex;
+  flex-direction: column;
+
+}
+.img-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-div {
+  border: 2px solid #3883f6;
+  border-radius: 6px;
+  width: 4rem;
+  height: 4rem;
+}
+.img-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  flex-wrap: nowrap;
+
+}
 #top-menu {
   display: flex;
   flex-direction: row;

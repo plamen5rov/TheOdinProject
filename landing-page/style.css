@@ -3,10 +3,6 @@ body {
   margin: 0;
   background-color: rgb(244, 247, 247);
   font-family: "Roboto", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
   padding: 0;
 }
 
@@ -14,15 +10,27 @@ header,
 footer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   background-color: #1f2937;
   color: #f9faf8;
 }
 
+header {
+  flex-direction: column;
+}
+
 ul {
-  text-decoration: none;
+  list-style-type: none;
   font-size: 18px;
   color: #e5e7eb;
+  display: flex;
+  margin-right: 4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  padding-left: 16px;
 }
 
 h2 {
@@ -30,27 +38,52 @@ h2 {
   font-weight: extra-bold;
   color: #1f2937;
 }
-
+#header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  margin-left: 4rem;
+}
 .title-area h1 {
   font-size: 48 px;
   font-weight: extra-bold;
   color: #f9faf8;
+  width: 50%;
+}
+
+.title-area p {
+  width: 80%;
 }
 
 .title-area button {
   font-size: 18 px;
   color: #f9faf8;
   background-color: #3883f6;
+  border: #3883f6;
+  border-radius: 4px;
+  padding: 6px 33px;
+}
+
+.img {
+  background-color: darkgrey;
+  /* min-width: 200 px; */
+  min-height: 80px;
+  margin-right: 4rem;
+  text-align: center;
+  display: flex;
+  align-self: center;
 }
 
 #top-menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
 }
 #top-menu h2 {
   font-size: 24px;
   color: #f9faf8;
+  margin-left: 4rem;
 }
 
 #testimonial {

@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0;
   background-color: white;
   font-family: "Roboto", sans-serif;
@@ -9,8 +9,6 @@ body {
 header,
 footer {
   display: flex;
-  justify-content: center;
-  /* align-items: center; */
   background-color: #1f2937;
   color: #f9faf8;
 }
@@ -30,11 +28,11 @@ ul {
 }
 
 li {
-  padding-left: 16px;
+  /* padding-left: 16px; */
 }
 
 h2 {
-  font-size: 36 px;
+  font-size: 36px;
   font-weight: extra-bold;
   color: #1f2937;
   text-align: center;
@@ -43,22 +41,24 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 40px;
+  margin: 4rem;
+}
+.title-area {
   margin-left: 4rem;
 }
 .title-area h1 {
-  font-size: 48 px;
+  font-size: 48px;
   font-weight: extra-bold;
   color: #f9faf8;
   width: 50%;
 }
 
 .title-area p {
-  width: 80%;
+  width: 70%;
 }
 
 .title-area button {
-  font-size: 18 px;
+  font-size: 18px;
   color: #f9faf8;
   background-color: #3883f6;
   border: #3883f6;
@@ -69,57 +69,139 @@ h2 {
 .img {
   background-color: darkgrey;
   /* min-width: 200 px; */
-  min-height: 80px;
+  min-height: 12rem;
+  min-width: 22rem;
   margin-right: 4rem;
   text-align: center;
   display: flex;
+  align-self: center;
+}
+.img p {
+  padding: 20px 60px;
   align-self: center;
 }
 
 #info-section {
   display: flex;
   flex-direction: column;
-
+  padding: 1rem 7rem 6rem 7rem;
 }
+
 .img-row {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 
 .img-div {
-  border: 2px solid #3883f6;
-  border-radius: 6px;
-  width: 4rem;
-  height: 4rem;
+  border: 4px solid #3883f6;
+  border-radius: 8px;
+  width: 8rem;
+  height: 8rem;
 }
 .img-sub {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 20%;
+  /* width: 20%; */
   flex-wrap: nowrap;
+}
 
+.img-sub p {
+  font-size: 18px;
+  width: 8rem;
+  text-align: center;
+  color: rgb(97, 95, 95);
 }
 #top-menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 4rem;
 }
 #top-menu h2 {
   font-size: 24px;
   color: #f9faf8;
-  margin-left: 4rem;
 }
 
 #testimonial {
   background-color: #e5e7eb;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 9rem;
 }
 
 #quote {
-  font-size: 36 px;
+  font-size: 36px;
   font-weight: light;
   font-style: italic;
   color: #1f2937;
+  width: 60%;
+}
+
+#signature {
+  font-size: 22px;
+  font-weight: bold;
+  align-self: flex-end;
+  margin-top: 1px;
+  margin-right: 16rem;
+}
+
+#CTA {
+  margin: 1rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.cta-area {
+  display: flex;
+  justify-content: center;
+  /* align-items: stretch; */
+  align-self: center;
+  background-color: #3882f6;
+  border-radius: 6px;
+  color: white;
+  width: 70%;
+  padding: 1rem 3rem;
+}
+
+.cta-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1px;
+}
+
+.cta-title {
+  font-size: 33px;
+  font-weight: bolder;
+  margin: 1px;
+}
+
+.cta-subtext {
+  margin: 1px;
+}
+
+.cta-btn {
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  padding: 6px 33px;
+  display: flex;
+  align-self: center;
+  margin-left: auto;
+}
+
+footer {
+  margin-top: auto;
+  padding: 15px;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
 }
